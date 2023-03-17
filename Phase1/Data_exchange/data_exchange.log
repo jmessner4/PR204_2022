@@ -1,0 +1,41 @@
+Avec le fichier de machines suivant :
+
+petite
+poker
+brelan
+capot
+
+
+On obtient l'affichage suivant :
+	
+[Proc#  0][10914 <= petite:40242 <= stdout]: MASTER_FD is 4 | DSMEXEC_FD is 3
+[Proc#  0][10914 <= petite:40242 <= stdout]: Info from dsmexec : I'm process 0 / 4 processes total
+[Proc#  0][10914 <= petite:40242 <= stdout]: [0] got connection info from dsmexec 
+[Proc#  0][10914 <= petite:40242 <= stdout]: [0] Process 0 is on machine: petite (port #: 40242)
+[Proc#  0][10914 <= petite:40242 <= stdout]: [0] Process 1 is on machine: poker (port #: 45124)
+[Proc#  0][10914 <= petite:40242 <= stdout]: [0] Process 2 is on machine: brelan (port #: 52204)
+[Proc#  0][10914 <= petite:40242 <= stdout]: [0] Process 3 is on machine: capot (port #: 55657)
+[Proc#  1][11136 <= poker:45124 <= stdout]: MASTER_FD is 4 | DSMEXEC_FD is 3
+[Proc#  1][11136 <= poker:45124 <= stdout]: Info from dsmexec : I'm process 1 / 4 processes total
+[Proc#  1][11136 <= poker:45124 <= stdout]: [1] got connection info from dsmexec 
+[Proc#  1][11136 <= poker:45124 <= stdout]: [1] Process 0 is on machine: petite (port #: 40242)
+[Proc#  1][11136 <= poker:45124 <= stdout]: [1] Process 1 is on machine: poker (port #: 45124)
+[Proc#  1][11136 <= poker:45124 <= stdout]: [1] Process 2 is on machine: brelan (port #: 52204)
+[Proc#  1][11136 <= poker:45124 <= stdout]: [1] Process 3 is on machine: capot (port #: 55657)
+[Proc#  2][10927 <= brelan:52204 <= stdout]: MASTER_FD is 4 | DSMEXEC_FD is 3
+[Proc#  2][10927 <= brelan:52204 <= stdout]: Info from dsmexec : I'm process 2 / 4 processes total
+[Proc#  2][10927 <= brelan:52204 <= stdout]: [2] got connection info from dsmexec 
+[Proc#  2][10927 <= brelan:52204 <= stdout]: [2] Process 0 is on machine: petite (port #: 40242)
+[Proc#  2][10927 <= brelan:52204 <= stdout]: [2] Process 1 is on machine: poker (port #: 45124)
+[Proc#  2][10927 <= brelan:52204 <= stdout]: [2] Process 2 is on machine: brelan (port #: 52204)
+[Proc#  2][10927 <= brelan:52204 <= stdout]: [2] Process 3 is on machine: capot (port #: 55657)
+[Proc#  3][10951 <= capot:55657 <= stdout]: MASTER_FD is 4 | DSMEXEC_FD is 3
+[Proc#  3][10951 <= capot:55657 <= stdout]: Info from dsmexec : I'm process 3 / 4 processes total
+[Proc#  3][10951 <= capot:55657 <= stdout]: [3] got connection info from dsmexec 
+[Proc#  3][10951 <= capot:55657 <= stdout]: [3] Process 0 is on machine: petite (port #: 40242)
+[Proc#  3][10951 <= capot:55657 <= stdout]: [3] Process 1 is on machine: poker (port #: 45124)
+[Proc#  3][10951 <= capot:55657 <= stdout]: [3] Process 2 is on machine: brelan (port #: 52204)
+[Proc#  3][10951 <= capot:55657 <= stdout]: [3] Process 3 is on machine: capot (port #: 55657)
+
+
+
